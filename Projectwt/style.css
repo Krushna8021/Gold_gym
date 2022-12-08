@@ -1,0 +1,712 @@
+
+
+
+ body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    }
+   
+    #navbar1{
+   position:relative;
+   height:60px;
+   width:100%;
+   background-color:yellow;s
+   }
+   
+   #callimg{
+   position:relative;
+   top:16px;
+   left:218px;
+   height:27px;
+   width:25px;
+   }
+   
+   #contact{
+   position:absolute;
+   top:18px;
+   left:250px;
+   color: black;
+   }
+   
+   #contactadress{
+   position:absolute;
+   top:18px;
+   left:350px;
+   color: black;
+   }
+   
+   #mail{
+   position:absolute;
+   top:15px;
+   height:27px;
+   width:25px;
+   left:1212px;
+   }
+   
+   #email{
+   position:absolute;
+   top:18px;
+   left:1245px;
+   color: black;
+   }  
+   
+   #mainnavbar{
+   position: relative;
+   z-index:3;
+   position:fixed;
+   height:90px;
+   width:100%;
+   background-color:#231d1d;
+   }
+   
+   #logopink{
+   position:absolute;
+   height:80px;
+   width:80px;
+   top:4px;
+   left:100px;
+   }
+   
+   .c1{
+   text-decoration:none;
+   color:white;
+   font-size:20px;
+   }
+   
+   .classli{
+   list-style-type:none;
+   display:inline;
+   margin:15px 20px 20px 15px;
+   padding:4px 4px 45px 4px;
+   
+   }
+   
+   #navbarul{
+   position:absolute;
+   top:15px;
+   left:250px;
+   }
+   
+   #div60{
+   position:absolute;
+   top:56px;
+   left:-11px;
+   display:none;
+   }
+   
+   .classa{
+   text-decoration:none;
+   color:white;
+   }
+   
+   .classx{
+   list-style-type:none;
+   padding:8px;
+   border:1px solid #191717;
+   background-color:black;
+   }
+   
+   #dropdownhover:hover #div60{
+   display:inline-block;
+   }
+   
+   #div61{
+   position:absolute;
+   top:56px;
+   left:458px;
+   display:none;
+   }
+   
+   .classa2{
+   text-decoration:none;
+   color:white;
+   }
+   
+   .classli2{
+   list-style-type:none;
+   padding:8px;
+   border:1px solid #191717;
+   background-color:black;
+   }
+   
+   #dropdownhover1:hover #div61{
+   display:inline-block;
+   }
+   
+   #button1{
+   position:relative;
+   margin:0px 0px 0px 0px;
+   padding:12px 12px 12px 12px;
+   background-color:transparent;
+   border:1px solid yellow;
+   }
+   
+   #color1{
+   color:yellow;
+   }
+   
+   #button2{
+   position:relative;
+   left:5px;
+   margin:0px 0px 0px 0px;
+   padding:12px 4px 12px 1px;
+   background-color:yellow;
+   border:1px solid black;
+   }
+   
+   #color2{
+   color:black;
+   }
+   
+   #slidimgdiv{
+   position:relative;
+   top:90px;
+   height:665px;
+   width:100%;
+   background-color:#231d1d
+   }
+   
+   * {box-sizing:border-box}
+   
+   .slideshow-container {
+       top: 10px;
+     max-width: 100%;
+     position: relative;
+     margin: auto;
+   }
+   
+   .mySlides {
+     display: none;
+   }
+   
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+   }
+   
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+   }
+   
+   .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+   .dot {
+     position: relative;
+     top: -85px;
+     left: -700px;
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: black;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+   }
+   
+   .active, .dot:hover {
+     background-color: #717171;
+   }
+   
+   .fade {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: 1.5s;
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
+   
+   @-webkit-keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
+   
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
+   
+   #city{
+       position: relative;
+       height: 400px;
+       width: 100%;
+       background-color: white;
+   }
+   
+   #circle{
+       position: absolute;
+       top: -100px;
+       left: 600px;
+       font-size: 250px;
+       color: white;
+   }
+   
+   
+   #wecan{
+       position: absolute;
+       top: 30px;
+       left: 542px;
+       font-size:45px;
+   
+   }
+   
+   #much{
+       position: absolute;
+       top: 117px;
+       left: 455px;
+       font-size:48px;
+       color: rgb(255, 228, 0);
+   }
+   
+   .states{
+       position: relative;
+       top: 160px;
+       left: 111px;
+       height: 150px;
+       width: 150px;
+       margin: 30px;
+       padding: 30px;
+   }
+   
+   #gym{
+       position: absolute;
+       top: 300px;
+       left: 171px;
+   }
+   #gymcity{
+       position: absolute;
+       top: 300px;
+       left: 396px;
+   }
+   #state{
+       position: absolute;
+       top: 300px;
+       left: 595px;
+   }
+   
+   #Personal{
+       position: absolute;
+       top: 300px;
+       left: 788px;
+   }
+   
+   #Corporate{
+       position: absolute;
+       top: 300px;
+       left: 1000px;
+   }
+   #group{
+       position: absolute;
+       top: 300px;
+       left: 1227px;
+   }
+   
+   #dumbbells{
+       position: relative;
+       height: 275px;
+       width: 100%;
+       background-color: yellow;
+   }
+   
+   #gymdumbbells{
+       position: absolute;
+       height: 275px;
+       width: 100%;
+   }
+   #indianapp{
+       position: absolute;
+       height: 200px;
+       width: 600px;
+       top: 25px;
+       left: 450px;
+   }
+   
+   #downloadthe{
+       position: absolute;
+       top: 22px;
+       color:rgb(255, 228, 0);
+       font-size: 35px;
+   }
+   #get{
+       position: absolute;
+       top:127px;
+       color: rgb(255, 228, 0);
+       font-size: 18px;
+   }
+   #donloadb{
+       position: absolute;
+       top: 85px;
+       left: 1100px;
+       text-decoration: none;
+       font-size: 25px;
+       color:rgb(255, 228, 0);
+       border: 2px solid rgb(255, 228, 0);
+       padding: 16px;
+   }
+   
+   #gymlogo{
+       position: relative;
+       height: 250px;
+       width: 100%;
+       background-color:white;
+   }
+   
+   .logogym{
+       position: absolute;
+       top: 70px;
+       height: auto;
+       max-width: 100%;
+   }
+   
+   #logogyma{
+       position: absolute;
+       left: 137px;
+   }
+   #logogymb{
+       position: absolute;
+       left: 550px;
+   }
+   #logogymc{
+       position: absolute;
+       left: 935px;
+   }
+   
+   #dumbbellsimga{
+       position: relative;
+       height: 280px;
+       width: 100%;
+       background-color: black;
+   }
+   
+   #dumbbellsimg{
+       
+       position: absolute;
+       height: 280px;
+       width: 100%;
+   
+   }
+   #SPECIAL{
+       position: absolute;
+       top: 20PX;
+       left: 170PX;
+       height: 200PX;
+       width: 300PX;
+   }
+   #SPECIALOFFER{
+       position: absolute;
+       color: rgb(255, 228, 0);
+       font-size: 60PX;
+   }
+   #BUYA{
+       position: absolute;
+       top: 44PX;
+       left: 485PX;
+       height: 200PX;
+       width: 500PX;
+   }
+   #BUY{
+       position: absolute;
+       color: rgb(255, 228, 0);
+       font-size: 40PX;
+   }
+   #YOUFITNESS{
+       font-size: 21PX;
+   }
+   #latest{
+       position: relative;
+       height: 1155px;
+       max-width: 100%;
+       background-color:white;
+   }
+   
+   #LATESTVIDEO{
+       position: absolute;
+       top: 90px;
+       left: 367px;
+       font-size: 38px;
+   }
+   
+   b{
+       color: rgb(255, 228, 0);
+   }
+   
+   iframe{
+       position: absolute;
+       top: 200px;
+       left: 170px;
+   }
+   
+   #input{
+       position: absolute;
+       top: 198px;
+       left: 1040px;
+       height: 650px;
+       width: 347px;
+   }
+   
+   #select1{
+       width: 343px;
+       height: 43px;
+   }
+   
+   .input1{
+       height: 43px;
+       width: 343px;
+       margin: 30px 0px 0px 0px;
+   }
+   
+   #select2{
+       margin: 30px 0px 0px 0px;
+       width: 343px;
+       height: 43px;
+   }
+   
+   #captcha{
+       position: absolute;
+       height: 77px;
+       max-width: 100%;
+       top: 378px;
+       left: 0px;
+   }
+   
+   #joinnow{
+      position:absolute;
+      top: 375px;
+      left:3px;
+      height: 50px;
+      width: 150px;
+      padding:9px 12px 12px 29px;
+      background-color:rgb(255, 228, 0);
+      border:1px solid black;
+      color: black;
+      font-size: 25px;
+   }
+   
+   #presale{
+       position: absolute;
+       top: 750px;
+       left: 370px;
+       font-size: 45px;
+   }
+   
+   #booknow{
+       position: absolute;
+       top: 820px;
+       left: 575px;
+   }
+   
+   #goldgymkhana{
+       position: absolute;
+       height: 127px;
+       width: 360px;
+       top: 915px;
+       left: 170px;
+       border: 3px solid black;
+   }
+   
+   #goldgymkhana1{
+       text-align: center;
+   }
+   
+   #view1{
+      position:absolute;
+      top: 58px;
+      left:131px;
+      height: 40px;
+      width: 87px;
+      padding:6px 12px 12px 15px;
+      background-color:rgb(255, 228, 0);
+      border:1px solid black;
+      color: black;
+      font-size: 24px;
+   }
+   
+   #goldgymkhana2{
+       position: absolute;
+       height: 162px;
+       width: 360px;
+       top: 915px;
+       left: 581px;
+       border: 3px solid black;
+   }
+   
+   #goldgymkhana3{
+       text-align: center;
+   }
+   
+   #view2{
+      position:absolute;
+      top: 88px;
+      left:131px;
+      height: 40px;
+      width: 87px;
+      padding:6px 12px 12px 15px;
+      background-color:rgb(255, 228, 0);
+      border:1px solid black;
+      color: black;
+     font-size: 24px;
+   }
+   
+   #colorblack{
+       position: absolute;
+       top: 44px;
+       left: 131px;
+       color: black;
+   }
+   
+   #bodyb{
+       position: relative;
+       height: 700px;
+       width: 100%;	
+   }
+   
+   #fitness{
+       position: absolute;
+       height: 700px;
+       width: 100%;
+   }
+   
+   #QUICK{
+       position: absolute;
+       top: 112px;
+       left: 155px;
+       height: 500px;
+       width: 250px;
+   }
+   
+   #hedquick{
+       font-size: 30px;
+   }
+   
+   .aboutus{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       padding: 10px 0px 10px 0px;
+       margin: 10px 0px 10px 0px;
+   }
+   
+   #LINKS{
+       position: absolute;
+       top: 204px;
+       left: 365px;
+       height: 500px;
+       width: 200px;
+   }
+   
+   #NEWS-LETTER{
+       position: absolute;
+       top: 112px;
+       left: 585px;
+       height: 500px;
+       width: 443px;
+   }
+   
+   #mailing{
+       font-size: 20px;
+       color: white;
+   }
+   
+   #emailinput{
+       height: 50px;
+       width: 435px;
+       border-color: white;
+   
+   }
+   
+   .socialmedia{
+       position: relative;
+       height: 40px;
+       width: 40px;
+       margin: 50px 27px 27px 0px;
+   }
+   
+   #LATEST-NEWS{
+       position: absolute;
+       top: 125px;
+       left: 1064px;
+       height: 500px;
+       width: 400px;
+   }
+   
+   .post{
+       position: absolute;
+       top: 92px;
+   }
+   
+   .mostcommon{
+       position: relative;
+       left: 64px;
+       width: 330px;
+       color: white;
+   }
+   
+   #post2{
+       position: absolute;
+       top: 169px;
+       color: white;
+   }
+   
+   #post3{
+       position: absolute;
+       top: 261px;
+       color: white;
+   }
+
+   .ariahidden{
+       position: absolute;
+       top: 5px;
+       left: 8px;
+       height: 30px;
+       width: 30px;
+       color: black;
+       display: inline-block;
+       font: normal normal normal 14px/-1 FontAwesome;
+       font-size: 36px;
+    
+   
+   }
+
+   #hidden{
+    position: absolute;
+    right: 0;
+    top: 162px !important;
+    left: 384px;
+    height: 51px;
+    width: 50px;
+    background: rgb(177, 173, 173);
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+   }
